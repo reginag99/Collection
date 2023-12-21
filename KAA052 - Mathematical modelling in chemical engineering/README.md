@@ -5,14 +5,14 @@ variation_mug.m
 Creates a variation analysis, customized for the cup. The set parameters is adjusted according to the conditions for the cup. 
 The parameter limits can be adjusted in dT_dt_mug.m. For further information and instructions, read the comments in the file.
 
-test_variation_RG.m
+test_variation.m
 Creates a variation analysis, customized for the beaker. 
 The parameter limits can be adjusted in dT_dt_RG2.m. For further information and instructions, read the comments in the file.
 
 beakeranalysis.m
 Initial analysis of part A data.
 
-test_G.m
+Anova_residual_test.m
 Creates plots for the heat and mass transfer from the glass beaker. It also generates ANOVA tables for the models and residual plots. Uses dT_dt_G.m.
 
 test_cup.m
