@@ -1,0 +1,7 @@
+function out = betag_v2(T)
+T = [260,280,300];
+y = [2.573, 1.815, 1.327]*10^8;;
+p = polyfit(T,y,2); 
+out = p(1) + p(2)*T + p(3)*T.^2;            
+end
+%obs ej klar! 
