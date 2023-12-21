@@ -7,7 +7,7 @@ rr=[67.6 66.9 65.8 65.0 64.4];
 tr=[11 12 13 14 15];
 figure
 subplot(2,2,1);
-plot(t0,r0,'r'); hold on;
+plot(t0,r0,'r'); hold on;d 
 plot(t2,r2,'g'); hold on;
 plot(tr,rr,'b'); hold on;
 legend('r=0','r=R/2','r=R');
